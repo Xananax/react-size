@@ -1,7 +1,7 @@
 {
   "name": "react-size",
   "version": "0.1.0",
-  "description": "",
+  "description": "Helpers to manage browser size changes in React.",
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf ./dist/*",
@@ -10,7 +10,7 @@
     "start": "webpack-dev-server --hot --inline --config webpack/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "xananax@yelostudio.com",
   "license": "MIT",
   "dependencies": {
     "element-resize-detector": "^1.0.3",
@@ -35,5 +35,22 @@
     "stylus-loader": "^1.4.2",
     "webpack": "^1.12.6",
     "webpack-dev-server": "1.12.1"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xananax/react-size.git"
+  },
+  "keywords": [
+    "react",
+    "events",
+    "resize",
+    "onresize"
+  ],
+  "bugs": {
+    "url": "https://github.com/Xananax/react-size/issues"
+  },
+  "homepage": "https://github.com/Xananax/react-size#readme"
 }
